@@ -13,7 +13,7 @@
    background-color: var(--color-white);
    border-radius: 0px 0px 30px 30px;
     transition: 400ms;
-    
+   
 }
 
 .header_list {
@@ -173,7 +173,17 @@
     margin-top: 5rem;
     display: flex;
     justify-content: center;
+
   }
+  #sec-cards .container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+#sec-cards__card:nth-child(even){
+  align-self: flex-end;
+}
+
   #sec-cards .container {
     margin-right: 2rem;
     margin-left: 2rem;
